@@ -1,0 +1,8 @@
+{
+	"requires":{
+		"paypal/rest-api-sdk-php":"1.14.0"
+	},
+	"require": {
+		"paypal/rest-api-sdk-php": "^1.14"
+	}
+}
