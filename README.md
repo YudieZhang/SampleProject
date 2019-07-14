@@ -7,7 +7,10 @@ This is a sample project.
 The index.php file is the homepage of the website.
 In order to ensure good operation,
 the sql file contained in document named 'database'
-should be import into the database first.
+should be extracted and imported into the database first.
+
+The paypal.zip file in the document named 'vendor' need
+to be extracted before use.
 
 # Document description
 
