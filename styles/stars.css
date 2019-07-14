@@ -1,0 +1,98 @@
+a {
+    color: #f1c40f;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #dab10d;
+}
+
+.rating-stars {
+    width: 100%;
+}
+
+.rating-stars .rating-stars-container {
+    font-size: 0px;
+}
+
+.rating-stars .rating-stars-container .rating-star {
+    display: inline-block;
+    font-size: 20px;
+    color: #555555;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.rating-stars .rating-stars-container .rating-star.is--active,
+.rating-stars .rating-stars-container .rating-star.is--hover {
+    color: #f1c40f;
+}
+
+.rating-stars .rating-stars-container .rating-star.is--no-hover {
+    color: #555555;
+}
+
+#star_grade{
+	margin-left: -920px;
+    padding-top: 10px;
+	margin-top: 40px;
+	font-size: 20px;
+	letter-spacing: 0px;
+}
+
+.set_image_all {
+	cursor: pointer;
+	position: relative;
+}
+
+.set_image_all .set_image_item {
+	position: relative;
+	display: inline-block;
+	z-index: 11;
+	visibility: visible;
+}
+
+.set_image_all .set_image_top {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 10;
+}
+
+.set_image_all .set_image_top>div {
+	display: inline-block;
+	overflow: hidden;
+}
+
+.set_image_all .set_image_top>div>img {
+	height: 100%;
+}
+
+.grade {
+	vertical-align: top;
+}
+
+.review_num{
+	padding-top: 20px;
+    line-height: 18px;
+    font-size: 80px;
+    color: #232323;
+    overflow: hidden;
+	position: absolute;
+	margin: -70px 0px 0px 80px;
+	height: 100px;
+	letter-spacing: 0px;
+}
+
+.reviewPics{
+	margin: -190px 0px -40px 190px;
+}
+
+.pics_num{
+	position: absolute;
+    margin: -150px 420px;
+	font-size: 20px;
+	text-transform:uppercase;
+	font-weight: 100;
+}

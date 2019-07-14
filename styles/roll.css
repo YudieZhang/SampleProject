@@ -1,0 +1,39 @@
+
+.scroll_main {
+	width: 464px;
+	display: block;
+	margin: 40px auto;
+}
+.scroll_wrap {
+	width: 100%;
+	height: 350px;
+	position: relative;
+}
+.scroll_wrap .scroll_cont {
+	height: 100%;
+	overflow: hidden;
+}
+.scroll_wrap .scroll_cont p {
+	padding:15px;
+}
+.scroll_wrap .scroll_bar {
+	position: absolute;
+	top:0;
+	right:0;
+	width: 5px;
+	height: 100%;
+	background-color: #e4e4e4;
+}
+.scroll_wrap .scroll_slider {
+	position: absolute;
+	top: 0;
+	left: 0px;
+	width: 5px;
+	height: 48px;
+	background-color: #525252;
+	border-radius:5px;
+	opacity: .5
+}
+.scroll_wrap .scroll_slider:hover{
+	opacity: 1
+}
