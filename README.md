@@ -5,12 +5,12 @@ This is a sample project.
 # Installation
 
 The index.php file is the homepage of the website.
-In order to ensure good operation,
-the sql file contained in document named 'database'
-should be extracted and imported into the database first.
 
-The paypal.zip file in the document named 'vendor' need
-to be extracted before use.
+In order to ensure good operation, the database
+should be created before operating this project.
+
+The paypal.zip file contained in document named 'vendor'
+should be extracted before operating this project.
 
 # Document description
 
